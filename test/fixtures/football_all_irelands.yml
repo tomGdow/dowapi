@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  county: MyString
+  description: MyText
+  winfirst: 1
+  winlast: 1
+  wintotal: 1
+
+two:
+  county: MyString
+  description: MyText
+  winfirst: 1
+  winlast: 1
+  wintotal: 1

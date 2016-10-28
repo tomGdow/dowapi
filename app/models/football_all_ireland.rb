@@ -1,0 +1,2 @@
+class FootballAllIreland < ApplicationRecord
+end
