@@ -2,7 +2,7 @@
 
 A simple example of an application program interface created with Ruby-on-Rails 5. The database is postgreSQL.  The API returns a list of Gaelic Football All-Ireland winners in JSON format. 
 
- ### Basic Log  
+###  Basic Log  
 
 ```
 mkdir dowapi
@@ -21,8 +21,6 @@ rails db:migrate
 rails c
 load '../allIrelandData.rb
 ```
-
-
 
 ###  Deployment
 
