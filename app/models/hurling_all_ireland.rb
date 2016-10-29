@@ -1,0 +1,2 @@
+class HurlingAllIreland < ApplicationRecord
+end

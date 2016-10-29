@@ -10,12 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161028160601) do
+ActiveRecord::Schema.define(version: 20161029185809) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "football_all_irelands", force: :cascade do |t|
+    t.string   "county"
+    t.text     "description"
+    t.integer  "winfirst"
+    t.integer  "winlast"
+    t.integer  "wintotal"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "hurling_all_irelands", force: :cascade do |t|
     t.string   "county"
     t.text     "description"
     t.integer  "winfirst"
