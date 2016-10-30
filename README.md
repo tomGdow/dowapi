@@ -26,11 +26,11 @@ cd dowapi
 rails new . -d postgresql --api
 ```
 
- configure 'config/database.yml'
+ configure 'config/database.yml' (for postgreSQL)
 
  add gem [pry]() to Gemfile (development block)
 
-uncomment gem [rack-cors]()  in Gemfile
+uncomment gem [rack-cors](https://github.com/cyu/rack-cors)  in Gemfile
 
 ```
 bundle install
@@ -46,7 +46,5 @@ load '../hurlingAllIrelandData.rb'
 # for production
 RAILS_ENV=production rails console
 load '../allIrelandData.rb'
-
 ```
-
 
