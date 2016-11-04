@@ -1,0 +1,2 @@
+class Taoiseach < ApplicationRecord
+end

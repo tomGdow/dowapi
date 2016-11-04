@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  party: MyString
+  description: MyText
+  constituency: MyText
+  taoiseach_number: 1
+  taoiseach_start: MyString
+  taoiseach_finish: MyString
+  taoiseach_terms: MyString
+  dail_elected: MyString
+  dail_leave: MyString
+  date_of_birth: MyString
+  date_of_death: MyString
+  image_url: MyString
+  url: MyString
+
+two:
+  name: MyString
+  party: MyString
+  description: MyText
+  constituency: MyText
+  taoiseach_number: 1
+  taoiseach_start: MyString
+  taoiseach_finish: MyString
+  taoiseach_terms: MyString
+  dail_elected: MyString
+  dail_leave: MyString
+  date_of_birth: MyString
+  date_of_death: MyString
+  image_url: MyString
+  url: MyString
