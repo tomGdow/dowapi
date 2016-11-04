@@ -6,9 +6,11 @@ A simple API created with Rails 5, providing data in JSON format.  The database 
 
 ## Data
 
-[Football All-Ireland Winners](http://dowapi.tomgdow.com/football_all_irelands) in JSON format
+[Football All-Ireland Winners](http://dowapi.tomgdow.com/football_all_irelands) 
 
-[Hurling all-Ireland Winners](http://dowapi.tomgdow.com/hurling_all_irelands) in JSON format
+[Hurling all-Ireland Winners](http://dowapi.tomgdow.com/hurling_all_irelands) 
+
+[Irish Taoisigh](http://dowapi.tomgdow.com/taoisigh) 
 
 ### Deployment
 
@@ -17,6 +19,8 @@ http://dowapi.tomgdow.com
 http://dowapi.tomgdow.com/football_all_irelands
 
 http://dowapi.tomgdow.com/hurling_all_irelands
+
+http://dowapi.tomgdow.com/taoisigh
 
 ###  Log  
 
@@ -39,9 +43,6 @@ rails generate scaffold FootballAllIreland county:string description:text winfir
 rails db:migrate
 rails c
 load '../allIrelandData.rb'
-rails generate scaffold HurlingAllIreland county:string description:text winfirst:integer winlast:integer wintotal:integer
-rails db:migrate
-load '../hurlingAllIrelandData.rb'
 
 # for production
 RAILS_ENV=production rails console
