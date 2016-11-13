@@ -38,6 +38,16 @@ class TaoisighController < ApplicationController
     @taoiseach.destroy
   end
 
+	def fiannafail
+		@fiannafail = Taoiseach.fiannafail.all
+    render json: @fiannafail
+	end
+
+	def finegael
+		@finegael = Taoiseach.finegael.all
+    render json: @finegael
+	end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_taoiseach
