@@ -22,6 +22,10 @@ http://dowapi.tomgdow.com/hurling_all_irelands
 
 http://dowapi.tomgdow.com/taoisigh
 
+http://dowapi.tomgdow.com/taoisigh/fiannafail
+
+http://dowapi.tomgdow.com/taoisigh/finegael
+
 ###  Log  
 
 ```
