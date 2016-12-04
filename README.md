@@ -12,6 +12,10 @@ A simple API created with Rails 5, providing data in JSON format.  The database 
 
 [Irish Taoisigh](http://dowapi.tomgdow.com/taoisigh) 
 
+[Irish Taoisigh - Fianna Fail](http://dowapi.tomgdow.com/taoisigh/fiannafail) 
+
+[Irish Taoisigh - Fine Gael](http://dowapi.tomgdow.com/taoisigh/fimegael) 
+
 ### Deployment
 
 http://dowapi.tomgdow.com
